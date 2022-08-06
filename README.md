@@ -14,8 +14,8 @@ There are several types of exchange, each routes message differently.
 - Broadcast to all Queues
 
 # Coding example
-- Create 2 queues: q.hr.accounting and q.hr.marketing
-- Create an exchange: x.hr
+- Create 2 queues: `q.hr.accounting` and `q.hr.marketing`
+- Create an exchange: `x.hr`
 
 # Create binding to those two queues
 
@@ -25,8 +25,8 @@ There are several types of exchange, each routes message differently.
 
 # Message can be discarded
 Coding example
-Create queues: q.picture.image and q.picture.vector
-Create an exchange: x.picture
+Create queues: `q.picture.image` and `q.picture.vector`
+Create an exchange: `x.picture`
 
 # Create bindings:
 x.picture, routing key = jpg => q.picture.image
