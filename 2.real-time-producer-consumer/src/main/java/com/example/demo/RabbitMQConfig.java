@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class RabbitMQConfig {
+    // fixedrate
     public static final String QUEUE = "spring-boot";
     public static final String EXCHANGE = "spring-boot-exchange";
     public static final String ROUTING_KEY = "spring-boot-routingKey";
