@@ -14,9 +14,6 @@ public class RabbitMQConfig {
     public static final String HR_MARKETING_QUEUE = "q.hr.marketing";
     public static final String EXCHANGE = "x.hr";
 
-    public static final String HR_ACCT_ROUTING_KEY = "hr-accounting-routingKey";
-    public static final String HR_MRKT_ROUTING_KEY = "hr-marketing-routingKey";
-
     @Bean
     public Queue hrAccountQueue(){
         return new Queue(HR_ACCOUNT_QUEUE, false);
