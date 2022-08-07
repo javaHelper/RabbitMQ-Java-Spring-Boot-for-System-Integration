@@ -25,13 +25,13 @@ There are several types of exchange, each routes message differently.
 
 # Message can be discarded
 Coding example
-Create queues: `q.picture.image` and `q.picture.vector`
-Create an exchange: `x.picture`
+- Create queues: `q.picture.image` and `q.picture.vector`
+- Create an exchange: `x.picture`
 
 # Create bindings:
-x.picture, routing key = jpg => q.picture.image
-x.picture, routing key = svg => q.picture.vector
+- x.picture, routing key = jpg => q.picture.image
+- x.picture, routing key = svg => q.picture.vector
 
 # Exchange Type: Topic
-Multiple criteria routing
-Two special characters on routing key
+- Multiple criteria routing
+- Two special characters on routing key
